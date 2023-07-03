@@ -1,10 +1,9 @@
+import os
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Welcome To Nia Chatbot basic'
+   return 'Hello, Telethon Music Bot Is Running!'
 
-
-if __name__ == "__main__":
-    app.run()
+os.system("git clone $REPO_URL ok && cd ok && pip3 install -r requirements && python3 -m Zaid")
